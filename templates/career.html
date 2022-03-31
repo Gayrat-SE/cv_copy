@@ -248,8 +248,12 @@
         padding-left: 15px;
         padding-right: 15px;
       }
-      .wgl-tabs_header:hover {
-        background-color: var(--transmax-secondary-color);
+      .wgl-tabs_header {
+        border-color: var(--transmax-primary-color);
+      }
+      .wgl-tabs_header:hover:after {
+        background-color: var(--transmax-primary-color);
+
       }
       .page-header,
       .wgl-add-backdrop-filter {
@@ -383,12 +387,14 @@
       .contact-feelfree {
         padding-top: 50px;
         display: flex;
-        justify-content: space-around;
+        align-items: center;  
         color: var(--transmax-back-to-top-color);
         font-size: 30px;
 
       }
-
+      .aleft {
+        text-align: center;
+      }
       @media (min-width:350px) and (max-width: 699px) {
         .modal-content {
           width: 90%;
@@ -1921,14 +1927,7 @@
                     <div class="description-feelfree">
                       CV-Cluster is the world&#8217;s driving worldwide coordinations supplier — we uphold industry and exchange the worldwide trade.
                     </div>
-                    <div class="contact-feelfree">
-                      <div class="button-wrapper">
-                        <a class="wgl-button btn-size-lg " role="button" href="../contacts/index.htm">
-                          <div class="button-content-wrapper ">
-                            <span class="wgl-button-text">request a Quote</span>
-                          </div>
-                        </a>
-                      </div>		
+                    		
                     
                       <div class="elementor-element elementor-element-990335d aleft a-mobilecenter elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget-icon-box wgl-icon-box elementor-widget elementor-widget-wgl-button" data-id="990335d" data-element_type="widget" data-widget_type="wgl-button.default">
                       <div class="elementor-widget-container">
